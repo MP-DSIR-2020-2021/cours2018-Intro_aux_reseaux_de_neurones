@@ -1,2 +1,5 @@
-# cours2018-Intro_aux_r-seaux_de_neurones
-Matériel rédigé pour un cours/td de 23h d'introduction aux réseaux de neurones à l'intention élèves de Master 2 en statistiques (automne 2018, Université de Lille, Département de Mathématiques). 
+# Introduction aux réseaux de neurones
+
+Matériel de cours rédigé par Pascal Germain
+
+Site web du cours: http://chercheurs.lille.inria.fr/pgermain/neurones2018/index.html
