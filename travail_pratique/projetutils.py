@@ -9,7 +9,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 import torch
 from torch import nn
-from torch.utils.data import TensorDataset, DataLoader, random_split
+from torch.utils.data import TensorDataset, DataLoader
 from torchvision.utils import make_grid
 import zipfile
 import imageio
@@ -192,7 +192,7 @@ class ReseauClassifGenerique:
         # Dans le cas du «early stopping», on retourne à l'état du modèle offrant la meilleure précision en validation  
         if early_stopping:
             self.architecture = meilleure_archi
-            print(f"Early stopping à l'époque #{meilleure_epoque}, avec précision en validation de {precision_valid}")
+            print(f"Early stopping à l'époque #{meilleure_epoque}, avec précision en validation de {meilleure_precision}")
                 
     def predict(self, x):
         # On s'assure que les données sont dans le bon format pytorch
